@@ -33,7 +33,7 @@ export default function Home() {
                 
                 <CircularProgress 
                   size={60} 
-                  className="text-white w-10"
+                  className=" w-10"
                   thickness={8}
                   sx={{
                     '@keyframes rotate': {
@@ -41,6 +41,7 @@ export default function Home() {
                       '100%': { transform: 'rotate(360deg)' },
                     },
                     animation: 'rotate 15s linear infinite',
+                    color: "white"
                   }}></CircularProgress>
               </Stack>
             </Container>
